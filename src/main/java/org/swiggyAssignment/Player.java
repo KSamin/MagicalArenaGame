@@ -19,21 +19,6 @@ public class Player {
     public int getAttack(){
         return attack;
     }
-
-   //setting the Entity value
-
-
-   public void setHealth(int health) {
-       this.health = health;
-   }
-
-   public void setStrength(int strength) {
-       this.strength = strength;
-   }
-
-   public void setAttack(int attack) {
-       this.attack = attack;
-   }
    
    // Reducing the health value during the game
     public void reduceHealth(int damage) {
