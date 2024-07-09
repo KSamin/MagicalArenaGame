@@ -1,0 +1,58 @@
+@startuml
+class Player {
+    - int health
+    - int strength
+    - int attack
+    + Player(int, int, int)
+    + getHealth(): int
+    + getStrength(): int
+    + getAttack(): int
+    + reduceHealth(int): void
+    + isAlive(): boolean
+}
+
+class Arena {
+    - Player player1
+    - Player player2
+    - Dice dice
+    + Arena(Player, Player)
+    + startFight(): void
+    - attack(Player, Player): void
+}
+
+class Dice {
+    - Random random
+    + Dice()
+    + roll(): int
+}
+
+class Main {
+    + main(String[]): void
+}
+
+class PlayerTest {
+    + testPlayerInitialization(): void
+    + testReduceHealth(): void
+    + testIsAlive(): void
+}
+
+class ArenaTest {
+    + testFight(): void
+}
+
+class DiceTest {
+    + testDiceRoll(): void
+}
+
+class TestSuite {
+}
+
+Player --> Arena
+Arena --> Dice
+Main --> Player
+Main --> Arena
+
+TestSuite --> PlayerTest
+TestSuite --> ArenaTest
+TestSuite --> DiceTest
+@enduml
