@@ -33,13 +33,22 @@ Requirement
    4. Build Tool- maven
    5. plugin - PlantUml for class diagram
 
-How To Run
-   =============
-    1. ModernArenaClass.puml for class digram
-    2. Build Maven (I added the Junit test dependency in Maven)
-       Click the retry symbol to build the Maven project in the pom.xml file.
-    2. Run Main.class file .
-    3. The TestSuite class allows you to run all the tests together. To run all test cases, execute the TestSuite.java file. If you want to run a single test, you can run individual test files, such as DiceTest.java, PlayerTest.java, or ArenaTest.java.
+Instructions
+============
+### ModernArenaClass.puml for class diagram
+
+The ModernArenaClass.puml file contains the class diagram for the project. 
+### Build Maven
+
+1. I added the JUnit test dependency in Maven.
+2. Click the retry symbol to build the Maven project in the pom.xml file. 
+### Run Main
+
+Run the Main.class file to start the application.
+### Running Tests
+
+1. The TestSuite class allows you to run all the tests together. To run all test cases, execute the TestSuite.java file.
+2. If you want to run a single test, you can run individual test files, such as DiceTest.java, PlayerTest.java, or ArenaTest.java.
 
 
 Submitted By:
