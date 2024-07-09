@@ -34,6 +34,17 @@ public class Player {
    public void setAttack(int attack) {
        this.attack = attack;
    }
+   
+   // Reducing the health value during the game
+    public void reduceHealth(int damage) {
+        this.health -= damage;
+        if (this.health < 0) {
+            this.health = 0;
+        }
+    }
 
+    public boolean isAlive() {
+        return this.health > 0;
+    }
     
 }
