@@ -26,9 +26,9 @@ public class Arena {
             }
 
             if (!playerA.isAlive()) {
-                System.out.println("Player 2 wins!");
+                System.out.println("Player B wins!");
             } else if (!playerB.isAlive()) {
-                System.out.println("Player 1 wins!");
+                System.out.println("Player A wins!");
             }
         }
     }
