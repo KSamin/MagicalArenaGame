@@ -51,7 +51,4 @@ Run the Main.class file to start the application.
 2. If you want to run a single test, you can run individual test files, such as DiceTest.java, PlayerTest.java, or ArenaTest.java.
 
 
-Submitted By:
-==============
- 1. Name: Samin Khan
-2. Email: samin4khan@gmail.com
+
